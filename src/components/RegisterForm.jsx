@@ -228,7 +228,7 @@ export default function RegisterForm() {
                         </form>
 
                     </div>
-                    <div className={`flex flex-1 w-3/4 md:-ml-6 sm:ml-1 h-fit py-4 px-4 rounded-md ${statusCode === 'Success' && "bg-green-100"}  ${statusCode === 'Success' && "bg-red-100"}`}>
+                    <div className={`flex flex-1 w-3/4 md:-ml-6 sm:ml-1 h-fit py-4 px-4 rounded-md ${statusCode === 'Success' && "bg-green-100"}  ${statusCode === 'Failed' && "bg-red-100"}`}>
                         {statusCode === 'Success' &&
                             <>
                                 <CheckCircleIcon className='w-8 h-8 text-green-900' />
